@@ -1,0 +1,85 @@
+# Site settings
+title: Thea Harvey-Brown
+name: Thea Harvey-Brown
+
+# Build settings
+markdown: kramdown
+
+#User specific content
+#Links that will appear in the navbar
+primarylinks:
+ - title: GitHub
+   url: https://github.com/tharveybrown
+ - title: LinkedIn
+   url: https://www.linkedin.com/in/thea-harvey-brown/
+
+#Any buzzword skills you want to include
+skills:
+ - Javascript
+ - Ruby 
+ - Rails
+ - React
+ - Vue
+ - Node.js
+ - Angular
+ - Amazon Web Services (Lambda, DynamoDB, CloudFront, ElasticSearch, Cognito)
+ - Serverless Applications
+ - SQL
+ - REST
+ - Microservices
+
+#Work experience is required
+roles:
+ - title: Product Engineer
+   start: 2018
+   end: 2020
+   employer: Black Knight Financial Services, AI Division  
+   description: <ul><li>Led Black Knight's machine learning team to a 300% increase in accuracy through data extraction and improvements to document classification.</li><li>Managed a team of 7 engineers to build out a custom mortgage platform for one of the five largest banks in the US, now used by over 25,000 mortgage professionals.</li> <li>Contributed to the software development of the mortgage platform, including authentication and authorization with Amazon Cognito, a loan search engine using ElasticSearch, and integration with Black Knight’s loan processing software.</li>
+<li>Deployed new features and fixed bugs with more merges to master compared to the average for a full-time software engineer.</li></ul>
+ - title: Research Assistant
+   start: 2017
+   end: 2018
+   employer: Johns Hopkins Hospital
+   description: <ul><li>Brain Stimulation Lab - Produced statistical insights using Matlab and R for two pre-clinical research studies investigating neuromodulation techniques for treatment of autism.</li>
+<li>Auditory Neurophysiology lab - Accumulated and analyzed data through running experiments with marmosets in Go/No-Go auditory tasks to investigate the neural basis of auditory perception and vocalizations, with a focus on plasticity in the auditory cortex.</li></ul>
+
+#Education is required
+education:
+ - level: Bachelor of Science (B.Sc.)
+   date: 2018
+   subject: Neuroscience
+   school: Johns Hopkins University
+ - level: Software Engineer Graduate
+   date: 2020
+   subject: Full Stack Web Development
+   school: Flatiron School
+
+
+#List of interesting Github repo/projects to include - optional
+github:
+ - tharveybrown/webbed
+ - tharveybrown/teams-backend
+ - tharveybrown/howamispendingmoney
+ - tharveybrown/donations-backend
+
+
+
+intro: |
+  Software engineer and graduate of top ranked coding school transitioning from a background in artificial intelligence and product management. 
+  Possess strong skills in product development and microservice-oriented architecture that help drive reliable, scalable solutions.
+#An additional info freetext section is optional at the bottom of the page - can be text or HTML
+additionalinfo: |
+  <strong>Webbed</strong>: <a target='_blank' href="http://www.webbed.us/">Demo</a>
+   <p> HR tech application built to encourage feedback between coworkers and provide insights into communication and organizational health. Includes a slack bot that sends notifications and runs sentiment analysis on channels using IBM Watson.</p>
+   <ul> 
+      <li>React frontend styled with Material UI library includes JWT authentication, role management, and integration with Rails backend.</li>
+      <li>Rails backend with Postgres DB includes integration with Slack’s API and Watson IBM’s Personality Insights and Natural Language Understanding services.</li>
+  </ul>  
+  <strong>Smarter Spending</strong>: <a target='_blank' href="https://enigmatic-dawn-22027.herokuapp.com/">Demo</a>
+   <p> Personal Finances application designed to help users understand their spending habits and promote impactful donations. Users can connect their bank account(s) and/or manually add expenses to view recurring payments, payment categories, and run comparisons against their donations. 
+  </p>
+   <ul> 
+      <li>Rails backend and Postgres DB provides an API and integrates with Plaid, which allows users to access their bank accounts.</li>
+      <li>React frontend includes dynamic charts, user authentication with JSON Web Tokens and local storage, and axios to fetch data from Rails API.</li>
+      <li>Used Nokogiri gem to scrape organization data from Impact Matters, a guide to finding high-impact nonprofits.</li>
+  </ul>  
